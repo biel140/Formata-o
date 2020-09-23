@@ -1,0 +1,83 @@
+@echo off
+cls
+@echo off
+mode 30,8
+regedit /s c:\Lxpin020.reg
+
+echo.
+echo ===WIN 10 64X===
+echo Google
+echo 1/8
+start /wait ChromeSetup.exe
+
+echo.
+echo FireFox
+echo 2/8
+start /wait firefox.exe
+
+echo.
+echo 7RIP
+echo 3/8
+msiexec.exe /i "7z1604.msi" /qb
+
+
+echo.
+echo Java
+echo 4/8
+start /wait Java.exe
+
+echo.
+echo Adobe Reader
+echo 5/8
+start /wait Adobe.exe
+
+
+echo.
+echo DriverBooster
+echo 6/8
+start /wait DriverBooster.exe
+
+
+echo.
+echo Ofiice 2016
+echo 7/8
+cd Office 2016
+start /wait setup.exe
+
+echo.
+echo Antivirus
+echo 8/8
+msiexec.exe /i "instalador_officescan.msi" /qb
+
+
+
+echo.
+echo Concluido
+echo ===100%%===
+pause
+cls
+
+echo.
+echo ===Ativar Programas==
+echo Apernas Ctrl+C 
+pause
+cls
+
+echo.
+echo Win10
+echo XHRNWJH6DKG788XHG2WM3GPJR
+pause
+cls
+echo Ofiice2016
+echo RVNQC92W44PM4M3JRY49WTYVM
+pause
+cls
+echo DriverBooster(Sem internet)
+echo C785F7D5C06201AFE3F4
+ 
+pause
+cls
+pause>nul
+
+
+
